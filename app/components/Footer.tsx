@@ -9,8 +9,8 @@ const Footer: React.FC = () => {
           <h3 className="text-2xl font-bold mb-4 text-primary">
             Sprouts Academy LLC
           </h3>
-          <p className="mb-2">1739 East Elizabeth Avenue Linden,</p>
-          <p className="mb-2">NJ 07036 USA</p>
+          <p className="mb-2">1739 East Elizabeth Avenue, </p>
+          <p className="mb-2">Linden, NJ 07036 USA</p>
           <p className="mb-2">Email: applications@njlittlesprouts.com</p>
           <p className="mb-2">Contact: (908) 941-7330</p>
         </div>
@@ -18,11 +18,11 @@ const Footer: React.FC = () => {
         {/* Schedule Section */}
         <div className="mb-4 md:mb-0 flex flex-col items-center sm:items-start">
           <h4 className="text-2xl font-bold mb-2">Schedule</h4>
-          <p>Mon: 7:30 AM – 4:30 PM</p>
-          <p>Tue: 7:30 AM – 4:30 PM</p>
-          <p>Wed: 7:30 AM – 4:30 PM</p>
-          <p>Thu: 7:30 AM – 4:30 PM</p>
-          <p>Fri: 7:30 AM – 4:30 PM</p>
+          <p>Mon: 9:00 AM – 3:00 PM</p>
+          <p>Tue: 9:00 AM – 3:00 PM</p>
+          <p>Wed: 9:00 AM – 3:00 PM</p>
+          <p>Thu: 9:00 AM – 3:00 PM</p>
+          <p>Fri: 9:00 AM – 3:00 PM</p>
           <p>Sat: Closed</p>
           <p>Sun: Closed</p>
         </div>
