@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
         <p className="text-white md:text-lg">Preschool in Linden</p>
         <div className="text-center mt-8">
         <Link
-          href="https://www.instagram.com/sproutsnj?igsh=eGhsbmYwYTEzemdk&utm_source=qr"
+          href="https://docs.google.com/forms/d/1Oq2Q7hPUEVKpaY9IwD6LK9r4ANvfeup-dTI0nSr6oTU"
           className="px-6 py-3 bg-primary text-white text-lg rounded-lg hover:bg-blue-600 transition duration-300"
         >
           Register

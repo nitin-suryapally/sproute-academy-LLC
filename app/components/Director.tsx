@@ -1,13 +1,15 @@
-'use client';
-import React, { useState } from 'react';
-import Image from 'next/image';
+"use client";
+import React, { useState } from "react";
+import Image from "next/image";
 
 const Director: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <section className="p-10 text-center " id='director'>
-      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-8 text-primary">Our Director</h2>
+    <section className="p-10 text-center " id="director">
+      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-8 text-primary">
+        Our Director
+      </h2>
       <Image
         src="/images/director.jpg"
         alt="Director"
@@ -46,19 +48,30 @@ const Director: React.FC = () => {
 
               {/* Director's Info */}
               <div className="mt-4 text-center text-black">
-                <h3 className="text-xl font-bold">Kathleen McCarthy - Director</h3>
+                <h3 className="text-xl font-bold">
+                  Kathleen McCarthy - Director
+                </h3>
                 <p className="mt-2 text-gray-700">
-                  My name is Kathleen McCarthy. I was born in Dallas, Texas but raised in Brooklyn, New York. 
-                  I am a mother of 4 beautiful daughters. I am a veteran teacher of 20 years. I am the day care 
-                  Director / CEO of Alvey's Education Never End Programs Inc. I am a member of Alpha Kappa Alpha 
-                  Sorority Incorporated and I model the importance of paying it forward. The more you give to others, 
-                  the more you receive overflowing blessings.
+                  My name is Kathleen McCarthy. I was born in Elizabeth, NJ, and
+                  raised in Linden, NJ. I am the proud mother of two wonderful
+                  children, Hope and Brandon, and I have a dog named Taz.
+                </p>
+                <p className="mt-2 text-gray-700">
+                  I’ve been in the teaching field since I was 18 years old, and
+                  I am currently the Director of Sprouts Academy in Linden, NJ.
+                  In addition, I am an Auxiliary member of the Linden American
+                  Legion and a staff member at the Roselle Park Post 60 American
+                  Legion.
                 </p>
                 <p className="mt-4 text-gray-700">
-                  <strong>What I believe in!</strong><br />
-                  I believe that family is the key to success. I believe that we are the pilot of our future. 
-                  I believe that if you fail to plan, you plan to fail. I believe that if you want something 
-                  you never had, you have to do something you've never done. I believe that the key to success is YOU.
+                  <strong>What I believe in!</strong>
+                  <br />
+                  My life’s platform has always been about helping children
+                  reach their full potential through kindness and sharing. I
+                  believe that strong family support is the foundation for a
+                  bright future. I encourage others to work hard, stay focused,
+                  ask for help when needed, and always keep a
+                  glass-half-full mindset!
                 </p>
               </div>
             </div>

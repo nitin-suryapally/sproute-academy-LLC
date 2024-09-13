@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { FaInstagram } from "react-icons/fa";
 
 const images = [
   "/images/image1.jpg",
@@ -33,9 +34,9 @@ const Gallery: React.FC = () => {
       <div className="text-center">
         <Link
           href="https://www.instagram.com/sproutsnj?igsh=eGhsbmYwYTEzemdk&utm_source=qr"
-          className="px-6 py-3 bg-blue-500 text-white text-lg rounded-lg hover:bg-blue-600 transition duration-300"
+          className="px-6 py-3 bg-blue-500 text-white text-lg rounded-lg hover:bg-blue-600 transition duration-300 flex items-center justify-center gap-2"
         >
-          More Images
+          <span className="text-white"><FaInstagram width={20} height={20} /></span>More Images
         </Link>
       </div>
     </section>

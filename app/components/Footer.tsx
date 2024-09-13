@@ -2,10 +2,10 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-800 text-white p-6 pt-8">
-      <div className="container mx-auto grid grid-cols-3 gap-4 max-w-5xl">
+    <footer className="bg-gray-800 text-white p-6 pt-8 mx-auto ">
+      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-5xl">
         {/* Left Section: Academy details */}
-        <div>
+        <div className="flex flex-col items-center sm:items-start">
           <h3 className="text-2xl font-bold mb-4 text-primary">
             Sprouts Academy LLC
           </h3>
@@ -15,10 +15,8 @@ const Footer: React.FC = () => {
           <p className="mb-2">Contact: (908) 941-7330</p>
         </div>
 
-        {/* Right Section: Schedule and Additional Info */}
-
-        {/* Schedule */}
-        <div className="mb-4 md:mb-0">
+        {/* Schedule Section */}
+        <div className="mb-4 md:mb-0 flex flex-col items-center sm:items-start">
           <h4 className="text-2xl font-bold mb-2">Schedule</h4>
           <p>Mon: 7:30 AM – 4:30 PM</p>
           <p>Tue: 7:30 AM – 4:30 PM</p>
@@ -29,17 +27,17 @@ const Footer: React.FC = () => {
           <p>Sun: Closed</p>
         </div>
 
-        {/* Additional Details in 3 Columns */}
-        <div className="md:pl-8">
-          <h4 className="text-xl font-bold mb-2">Additional Info</h4>
-          <ol className=" gap-4 list-inside">
+        {/* Additional Info Section */}
+        <div className="md:pl-8 flex flex-col items-center sm:items-start">
+          <h4 className="text-2xl font-bold mb-2">Additional Info</h4>
+          <ul className="list-disc list-inside space-y-2">
             <li>CPR-certified staff</li>
             <li>Early childhood education-certified staff</li>
             <li>First aid-certified staff</li>
             <li>Health screenings available</li>
             <li>Outdoor play space</li>
             <li>1 classroom facility</li>
-          </ol>
+          </ul>
         </div>
       </div>
     </footer>
