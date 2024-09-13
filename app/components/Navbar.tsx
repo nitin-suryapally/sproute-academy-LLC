@@ -26,14 +26,14 @@ const Navbar: React.FC = () => {
             <Link href="/" className="text-white hover:text-gray-300">
               Home
             </Link>
-            <Link href="/aboutus" className="text-white hover:text-gray-300">
+            <Link href="#about" className="text-white hover:text-gray-300">
               About Us
             </Link>
-            <Link href="/gallery" className="text-white hover:text-gray-300">
+            <Link href="#gallery" className="text-white hover:text-gray-300">
               Gallery
             </Link>
             <Link
-              href="/testimonials"
+              href="#testimonials"
               className="text-white hover:text-gray-300"
             >
               Testimonials
@@ -67,21 +67,21 @@ const Navbar: React.FC = () => {
             Home
           </Link>
           <Link
-            href="/"
+            href="#about"
             className="block text-white hover:text-gray-300"
             onClick={toggleMenu}
           >
             About Us
           </Link>
           <Link
-            href="/"
+            href="#gallery"
             className="block text-white hover:text-gray-300"
             onClick={toggleMenu}
           >
             Gallery
           </Link>
           <Link
-            href="/"
+            href="#testimonials"
             className="block text-white hover:text-gray-300"
             onClick={toggleMenu}
           >

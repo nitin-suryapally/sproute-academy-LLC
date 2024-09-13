@@ -11,7 +11,7 @@ const images = [
 
 const Gallery: React.FC = () => {
   return (
-    <section className="px-4 py-10 sm:px-6 lg:px-20 flex flex-col items-center justify-center">
+    <section className="px-4 py-10 sm:px-6 lg:px-20 flex flex-col items-center justify-center" id="gallery">
       <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 text-center text-primary">
         Gallery
       </h2>

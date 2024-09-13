@@ -4,7 +4,7 @@ import React from "react";
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative bg-cover bg-center h-[400px] sm:h-[500px] md:h-screen ">
+    <section className="relative bg-cover bg-center h-[400px] sm:h-[500px] md:h-screen " id="hero">
       {/* Responsive background image */}
       <Image
         src="/images/background.jpg"

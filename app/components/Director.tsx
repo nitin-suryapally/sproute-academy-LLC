@@ -6,7 +6,7 @@ const Director: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <section className="p-10 text-center ">
+    <section className="p-10 text-center " id='director'>
       <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-8 text-primary">Our Director</h2>
       <Image
         src="/images/director.jpg"

@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonials: React.FC = () => {
   return (
-    <section className="p-10 bg-black text-white flex flex-col gap-8">
+    <section className="p-10 bg-black text-white flex flex-col gap-8" id="testimonials">
       <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 text-center text-primary">Testimonials</h2>
 
       {/* Card grid layout */}
